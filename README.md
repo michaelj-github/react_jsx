@@ -1,30 +1,39 @@
 # JSX Exercises
 
-Exercise Instructions
+## Execution
 
-## Part 1
+```
+$ python3 -m http.server
+http://localhost:8000/part-1/
+http://localhost:8000/part-2/
+http://localhost:8000/part-3/
+```
+
+## Exercise Instructions
+
+### Part 1
 
 For this assignment you will be creating three components:
 
-### FirstComponent
+#### FirstComponent
 
     renders an h1 with the text “My very first component”.
 
-### NamedComponent
+#### NamedComponent
 
     renders a p that should accept a property of “name” and display text “My name is name”.
 
-### App
+#### App
 
     renders a div with instances of the other two components.
 
-## Part 2
+### Part 2
 
     Define a Tweet component which takes as props the username of the user who wrote the tweet, the name of the user who wrote the tweet, the date of the tweet, and the message being tweeted.
 
     Create an App component that renders at least three tweets.
 
-## Part 3
+### Part 3
 
     Create a component called Person. Inside of this component, render a p tag which displays “Learn some information about this person”. Each person should have name and age properties.
 
